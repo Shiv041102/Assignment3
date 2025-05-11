@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page</title>
+    <style>
+        button{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+    <script src="callback.js" defer></script>
+    <script src="promise.js" defer></script>
+    <script src="asyncAwait.js" defer></script>
+</head> 
+<body>
+    <button onclick="chainOperations()">
+        Click me to chain operations using callbacks
+        </button>
+    <button onclick="chainOperationsWithPromises()">
+        Click me to chain operations using promises
+        </button>
+        <button onclick="chainOperationsWithAsyncAwait()">
+        Click me to chain operations using async/await  
+        </button>
+</body>
+</html>
